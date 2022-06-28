@@ -1,0 +1,13 @@
+ALGORITHM sum of all distinct elements 
+VAR
+x , y : ARRAY_OF type[INTEGER];
+sum,i,j:INTEGER:=0
+BEGIN
+FOR i FROM 0 TO x.length STEP 1 DO
+    WHILE (j<y.length) DO
+    if(x[i]=y[j])DO
+sum==sum+arr[i]+y[j]
+    j++
+    END_WHILE
+END_FOR
+END
