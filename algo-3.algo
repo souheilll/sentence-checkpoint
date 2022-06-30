@@ -1,0 +1,22 @@
+function mult(arr1,arr2):
+var 
+arr1,arr2 :  ARRAY_OF integer [10];
+s,i :INTEGER
+BEGIN
+FOR i FROM 0 TO arr1.length STEP 1 DO
+    s=s+arr1[i]*arr2[i]
+END_FOR
+END
+
+ALGORITHM dot-product
+VAR
+tab1,tab2: ARRAY_OF INTEGER[10];
+p:INTEGER
+BEGIN
+p=mult(tab1,tab2)
+IF (p==0) THEN
+    write ('orthogono')
+ELSE
+    write ('not ')
+END_IF
+END
